@@ -673,3 +673,36 @@ Session ID: ce1722f2e3982ba927ea2c0656204a06
 2022-11-30 17:11:05,257 INFO  [Log] home_page() PASSED 
 2022-11-30 17:32:30,872 INFO  [Log] home_page() PASSED 
 2022-11-30 17:53:04,479 INFO  [Log] home_page() PASSED 
+2022-11-30 18:26:04,658 ERROR [Log] home_page() FAILED with cause : expected: <> but was: <2> 
+2022-11-30 18:35:11,506 INFO  [Log] home_page() PASSED 
+2022-11-30 18:46:37,413 ERROR [Log] home_page() FAILED with cause : expected: <[[ChromeDriver: chrome on WINDOWS (acc2ceefadecefe39e4e5c1215498c44)] -> xpath: //*[@value="2"]]> but was: <2> 
+2022-11-30 18:59:57,020 ERROR [Log] home_page() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class="js-qty__adjust js-qty__adjust--plus"])[2]"}
+  (Session info: chrome=103.0.5060.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TCNTSCONS997', ip: '192.168.1.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\EXT02D~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59612}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2a00449d486e3bf433daee5ee7465601
+*** Element info: {Using=xpath, value=(//*[@class="js-qty__adjust js-qty__adjust--plus"])[2]} 
+2022-11-30 19:02:16,862 ERROR [Log] home_page() FAILED with cause : expected: <> but was: <2> 
+2022-11-30 19:08:10,975 ERROR [Log] home_page() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),"Design the Perfect Pitch")]"}
+  (Session info: chrome=103.0.5060.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TCNTSCONS997', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\EXT02D~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ae8024cdf5e989865975eb39fa5251a
+*** Element info: {Using=xpath, value=//*[contains(text(),"Design the Perfect Pitch")]} 
+2022-11-30 19:13:23,967 ERROR [Log] home_page() FAILED with cause : expected: <2> but was: <> 
+2022-11-30 19:20:57,217 ERROR [Log] home_page() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(),"$5,500.00")]"}
+  (Session info: chrome=103.0.5060.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TCNTSCONS997', ip: '192.168.1.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\EXT02D~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 84ab2076b546d262af250305371a51ea
+*** Element info: {Using=xpath, value=//*[contains(text(),"$5,500.00")]} 
+2022-11-30 19:24:44,171 INFO  [Log] home_page() PASSED 

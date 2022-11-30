@@ -33,10 +33,11 @@ public class AddingProductToTheCart extends BaseTest {
         productDetailPage.addToCart(); //5--The user adds Pro 3.0 product to their cart . ( choosing “For New Customers” )
         Assertions.assertTrue(productDetailPage.isUrlCorrect("cart"), "Not a correct url!");//5-a-The user verifies that they are directed to the "cart" URL.
         cartPage = new CartPage(driver);
+        Thread.sleep(2000);
         cartPage.clickPlusButton(); //6-The user increases quantity ( quantity = 2 ) of product on the"cart" .
-        Thread.sleep(3000);
-        Assertions.assertEquals(cartPage.checkCost(),"$5,500.00");
-        //Assertions.assertTrue(cartPage.checkIfProductAdded("2","3,000"),"Product was not added to cart!"); //6-a-The user verifies that there are two items in their "My Chart" part and that it costs $26,500.00.
+        //Assertions.assertEquals(cartPage.checkAmount(),"2");
+        Thread.sleep(2000);
+        Assertions.assertEquals(cartPage.checkCost(),"$5,500.00");//6-a-The user verifies that there are two items in their "My Chart" part and that it costs $26,500.00.
         Thread.sleep(2000);
         cartPage.clickOrganizationType(); //7-The user chooses “Organization Type” and check “I agree with the terms and conditions”. Then clicks “Checkout” button.
         cartPage.selectOrganizationType(); //7
@@ -50,13 +51,5 @@ public class AddingProductToTheCart extends BaseTest {
         Assertions.assertEquals(paymentPage.displayErrorMessage(),"Enter a valid discount code"); //9-a-The user verifies that they receive the "Coupon " BASEBALLBEST " does not exist!" warning message
         paymentPage.clickContinueToShipping();//7-a-User fills in the blanks random and invalid data in “Information” part and come to the “Payment” part.
     }
-
-    /*@Test
-    @Order(5)
-    public void view_cart() throws InterruptedException {
-        cartPage.viewCart();
-        Assertions.assertTrue(cartPage.checkIfProductAdded("2", "999.98"), "Product was not added to cart!");
-        Thread.sleep(5000);
-    }*/
 
 }
