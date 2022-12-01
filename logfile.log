@@ -706,3 +706,4 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 1
 Session ID: 84ab2076b546d262af250305371a51ea
 *** Element info: {Using=xpath, value=//*[contains(text(),"$5,500.00")]} 
 2022-11-30 19:24:44,171 INFO  [Log] home_page() PASSED 
+2022-11-30 19:55:13,818 INFO  [Log] home_page() PASSED 
